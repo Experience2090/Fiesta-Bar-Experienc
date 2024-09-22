@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Fondo claro */
+}
+
+header {
+    background: linear-gradient(90deg, #a24d83, #c5a476); /* Gradiente de colores lujosos */
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.hero {
+    background-image: url('https://your-hero-image-url.jpg'); /* Imagen de fondo */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.gallery {
+    padding: 40px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.packages {
+    padding: 40px;
+    text-align: center;
+}
+
+.package {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+}
+
+h4 {
+    color: #a24d83; /* Color lujoso para los títulos de los paquetes */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #c5a476;
+    color: white;
+}
